@@ -1,0 +1,31 @@
+{
+    "typeName": "picat.development",
+    "options": {
+        "gradeNames": ["autoInit", "fluid.littleComponent"],
+        
+        "components": {
+            "server": {
+                "type": "kettle.server",
+                "options": {
+                    "port": 8081,
+                    
+                    "components": {
+                        "app": {
+                            "type": "picat.app"
+                        },
+                        
+                        "camera": {
+                            "type": "picat.camera"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    
+    "modules": [
+        "../lib/picat-app.js",
+        "../lib/picat-camera.js"
+        
+    ]
+}

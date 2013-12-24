@@ -1,0 +1,31 @@
+{
+    "name": "picat",
+    "description": "Cat camera server for the Raspiberry Pi.",
+    "main": "./index.js",
+    "version": "0.1.0",
+    "author": "Colin Clark",
+    "bugs": "http://github.com/colinbdclark/picat/issues",
+    "homepage": "http://github.com/colinbdclark/picat",
+    "dependencies": {
+        "infusion": "git://github.com/fluid-project/infusion.git",
+        "kettle": "git://github.com/fluid-project/kettle.git"
+    },
+    "devDependencies": {
+        "jqUnit": "git://github.com/fluid-project/node-jqUnit.git"
+    },
+    "licenses": [
+        {
+            "type": "BSD-3-Clause",
+            "url": "http://www.opensource.org/licenses/BSD-3-Clause"
+        }
+    ],
+    "keywords": [
+        "cat",
+        "camera",
+        "raspberrypi"
+    ],
+    "repository": "git://github.com:colinbdclark/picat.git",
+    "engines": {
+        "node": ">=0.10.0"
+    }
+}
